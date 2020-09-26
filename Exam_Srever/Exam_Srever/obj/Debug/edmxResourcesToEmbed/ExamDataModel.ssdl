@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Exam_DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ANSWERS">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="QuestionId" Type="int" />
+    <Property Name="Answer" Type="nchar" MaxLength="50" />
+    <Property Name="Result" Type="bit" />
+  </EntityType>
+  <EntityType Name="QUESTIONS">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Question" Type="nchar" MaxLength="80" />
+  </EntityType>
+  <Association Name="FK_ANSWERS_QUESTIONS">
+    <End Role="QUESTIONS" Type="Self.QUESTIONS" Multiplicity="0..1" />
+    <End Role="ANSWERS" Type="Self.ANSWERS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QUESTIONS">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ANSWERS">
+        <PropertyRef Name="QuestionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Exam_DBModelStoreContainer">
+    <EntitySet Name="ANSWERS" EntityType="Self.ANSWERS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QUESTIONS" EntityType="Self.QUESTIONS" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_ANSWERS_QUESTIONS" Association="Self.FK_ANSWERS_QUESTIONS">
+      <End Role="QUESTIONS" EntitySet="QUESTIONS" />
+      <End Role="ANSWERS" EntitySet="ANSWERS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

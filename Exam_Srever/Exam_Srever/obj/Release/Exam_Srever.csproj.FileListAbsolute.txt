@@ -1,0 +1,33 @@
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\bin\Release\Exam_Srever.exe.config
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\obj\Release\Exam_Srever.ExServerForm.resources
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\obj\Release\Exam_Srever.Properties.Resources.resources
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\obj\Release\Exam_Srever.csproj.GenerateResource.Cache
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\obj\Release\Exam_Srever.exe
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\obj\Release\Exam_Srever.pdb
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\bin\Release\Exam_Srever.exe.manifest
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\bin\Release\Exam_Srever.application
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\bin\Release\Exam_Srever.exe
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\bin\Release\Exam_Srever.pdb
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\bin\Release\EntityFramework.dll
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\bin\Release\EntityFramework.SqlServer.dll
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\bin\Release\Microsoft.CSharp.dll
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\bin\Release\System.Data.DataSetExtensions.dll
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\bin\Release\System.Data.dll
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\bin\Release\System.Deployment.dll
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\bin\Release\System.dll
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\bin\Release\System.Drawing.dll
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\bin\Release\System.Net.Http.dll
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\bin\Release\System.Runtime.Serialization.dll
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\bin\Release\System.Security.dll
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\bin\Release\System.Windows.Forms.dll
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\bin\Release\System.Xml.dll
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\bin\Release\System.Xml.Linq.dll
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\bin\Release\EntityFramework.xml
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\bin\Release\EntityFramework.SqlServer.xml
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\obj\Release\Exam_Srever.exe.manifest
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\obj\Release\Exam_Srever.application
+D:\visual studio 2015\Projects\Exam_Srever\Exam_Srever\obj\Release\Exam_Srever.csprojResolveAssemblyReference.cache
+F:\IT\Projects\Exam_Srever\Exam_Srever\bin\Release\Exam_Srever.exe.config
+F:\IT\Projects\Exam_Srever\Exam_Srever\obj\Release\Exam_Srever.exe
+F:\IT\Projects\Exam_Srever\Exam_Srever\obj\Release\Exam_Srever.pdb

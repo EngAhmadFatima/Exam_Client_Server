@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Exam_DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ANSWER">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="QuestionId" Type="Int32" />
+    <Property Name="Answer1" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Result" Type="Boolean" />
+    <NavigationProperty Name="QUESTION" Relationship="Self.FK_ANSWERS_QUESTIONS" FromRole="ANSWERS" ToRole="QUESTIONS" />
+  </EntityType>
+  <EntityType Name="QUESTION">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Question1" Type="String" MaxLength="80" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="ANSWERS" Relationship="Self.FK_ANSWERS_QUESTIONS" FromRole="QUESTIONS" ToRole="ANSWERS" />
+  </EntityType>
+  <Association Name="FK_ANSWERS_QUESTIONS">
+    <End Role="QUESTIONS" Type="Self.QUESTION" Multiplicity="0..1" />
+    <End Role="ANSWERS" Type="Self.ANSWER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QUESTIONS">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ANSWERS">
+        <PropertyRef Name="QuestionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Exam_DBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ANSWERS" EntityType="Self.ANSWER" />
+    <EntitySet Name="QUESTIONS" EntityType="Self.QUESTION" />
+    <AssociationSet Name="FK_ANSWERS_QUESTIONS" Association="Self.FK_ANSWERS_QUESTIONS">
+      <End Role="QUESTIONS" EntitySet="QUESTIONS" />
+      <End Role="ANSWERS" EntitySet="ANSWERS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,24 @@
+D:\visual studio 2015\Projects\Exam_Client\Exam_Client\bin\Release\Exam_Client.exe.config
+D:\visual studio 2015\Projects\Exam_Client\Exam_Client\bin\Release\Exam_Client.exe
+D:\visual studio 2015\Projects\Exam_Client\Exam_Client\bin\Release\Exam_Client.pdb
+D:\visual studio 2015\Projects\Exam_Client\Exam_Client\bin\Release\Microsoft.CSharp.dll
+D:\visual studio 2015\Projects\Exam_Client\Exam_Client\bin\Release\System.Data.DataSetExtensions.dll
+D:\visual studio 2015\Projects\Exam_Client\Exam_Client\bin\Release\System.Data.dll
+D:\visual studio 2015\Projects\Exam_Client\Exam_Client\bin\Release\System.Deployment.dll
+D:\visual studio 2015\Projects\Exam_Client\Exam_Client\bin\Release\System.dll
+D:\visual studio 2015\Projects\Exam_Client\Exam_Client\bin\Release\System.Drawing.dll
+D:\visual studio 2015\Projects\Exam_Client\Exam_Client\bin\Release\System.Net.Http.dll
+D:\visual studio 2015\Projects\Exam_Client\Exam_Client\bin\Release\System.Windows.Forms.dll
+D:\visual studio 2015\Projects\Exam_Client\Exam_Client\bin\Release\System.Xml.dll
+D:\visual studio 2015\Projects\Exam_Client\Exam_Client\bin\Release\System.Xml.Linq.dll
+D:\visual studio 2015\Projects\Exam_Client\Exam_Client\obj\Release\Exam_Client.csprojResolveAssemblyReference.cache
+D:\visual studio 2015\Projects\Exam_Client\Exam_Client\obj\Release\Exam_Client.StudentForm.resources
+D:\visual studio 2015\Projects\Exam_Client\Exam_Client\obj\Release\Exam_Client.Properties.Resources.resources
+D:\visual studio 2015\Projects\Exam_Client\Exam_Client\obj\Release\Exam_Client.QuestionForm.resources
+D:\visual studio 2015\Projects\Exam_Client\Exam_Client\obj\Release\Exam_Client.csproj.GenerateResource.Cache
+D:\visual studio 2015\Projects\Exam_Client\Exam_Client\obj\Release\Exam_Client.exe
+D:\visual studio 2015\Projects\Exam_Client\Exam_Client\obj\Release\Exam_Client.pdb
+D:\visual studio 2015\Projects\Exam_Client\Exam_Client\obj\Release\Exam_Client.Wait.resources
+F:\IT\Projects\Exam_Client\Exam_Client\bin\Release\Exam_Client.exe.config
+F:\IT\Projects\Exam_Client\Exam_Client\obj\Release\Exam_Client.exe
+F:\IT\Projects\Exam_Client\Exam_Client\obj\Release\Exam_Client.pdb
